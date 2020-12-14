@@ -1,0 +1,51 @@
+.randomCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    border-radius: 10px;
+    width: 92%;
+    height: 23rem;
+    box-shadow: 0 0 20px 
+}
+
+.imageOfTheCard {
+    width: 100%;
+    height: 81%;
+    border-radius: 10px 10px 0 0;
+}
+
+.recipeNameContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.nameOfRecipe {
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+    width: 50%;
+    text-align: start;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.categoryName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5rem;
+    width: 50%;
+}
+
+.categoryName p {
+    background-color: #fbb034;
+    background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    width: 5rem;
+    text-align: center;
+}
+
